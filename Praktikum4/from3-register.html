@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Registrasi</title>
+</head>
+<body>
+	<form  action="Contact.php" method="POST">
+		<fieldset>
+			<legend>Registrasi</legend>
+			<p>
+				<label>Name  &emsp; &emsp; &emsp; &emsp;:</label>
+				<input type="text" name="name" placeholder="your name">
+			</p>
+			<p>
+				<label>Username  &emsp;  &emsp; &emsp;:</label>
+				<input type="text" name="Username" placeholder="Username">
+			</p>
+			<p>
+				<label>Email  &emsp; &emsp; &emsp; &emsp;:</label>
+				<input type="email" name="email" placeholder="your email">
+			</p>
+			<p>
+				<label>Jenis Kelamin  &emsp; &emsp;:</label>
+				<label><input type="radio" name="Jenis Kelamin" value="Laki-Laki"/>Laki-Laki</label>
+				<label><input type="radio" name="Jenis Kelamin" value="Perempuan"/>Perempuan</label>
+			<p>
+				<label>Agama  &emsp; &emsp; &emsp; &emsp;:</label>
+				<select name="Agama">
+					<option value="Islam">Islam</option>
+					<option value="Islam">Kristen</option>
+					<option value="Islam">Hindu</option>
+					<option value="Islam">Budha</option>
+					
+				</select>
+			</p>
+			<p>
+				<label>Biografi  &emsp; &emsp; &emsp; &emsp;:</label>
+				<textarea name="Biografi"></textarea>
+			</p>
+			<p>
+				<input type="submit" name="submit" value="Daftar"> 
+			</p>
+			<p>
+				<label>Alamat Web   &emsp; &emsp;:</label>
+				<input type="url" name="name" placeholder="Masukan URL web">
+			</p>
+			<p>
+				<label>Tanggal lahir   &emsp; &emsp;:</label>
+				<input type="date" name="Tanggal">
+			</p>
+			<p>
+				<label>Umur  &emsp; &emsp; &emsp; &emsp;:</label>
+				<input type="number" min="10" max="90" name="Umur">
+			</p>
+			<p>
+				<input type="submit" name="submit" value="send">
+			</p>
+
+			</p>
+		</fieldset>
+	</form>
+
+</body>
+</html>

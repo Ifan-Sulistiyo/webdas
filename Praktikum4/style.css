@@ -1,0 +1,20 @@
+body{
+	background: url(xp.jpg);
+	background-size: cover;
+}
+.house{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	postion: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+.loginbox{
+	width: 320px;
+	height: 420px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
