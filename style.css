@@ -1,0 +1,40 @@
+body{
+	background: green;
+	font-family: roboto;
+	color: white;
+}
+h1{
+	width: 550px;
+}
+.kotak{
+	background: blue;
+	width: 200px;
+	height: 200px;
+	animation-name: animasi_kotak;
+	animation-duration: 2s;
+}
+@keyframes animasi_kotak{
+	from{ background: blue;}
+	to{background: red;}
+}
+.kotak1{
+	background: #fff;
+	width: 100px;
+	height: 100px;
+	transition: width 1s;
+	-webkit-transition: width 1s;
+}
+.kotak1:hover{
+	width: 300px;
+}
+.kotak2{
+	background: #fff;
+	width: 100px;
+	height: 100px;
+	transition: width 3s, height 2s;
+	-webkit-transition: width 3s, height 2s;
+}
+.kotak2:hover{
+	width: 300px;
+	height: 300px;
+}
